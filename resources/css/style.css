@@ -6,6 +6,7 @@ body {
   background-color: black;
   opacity: 0.9;
   display: block;
+  text-align: center;
 }
 
 div {
@@ -21,15 +22,7 @@ div {
 
 /* Header Section */
 
-header {
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  height: 69px;
-  background-color: black;
-  border-bottom: 1px solid seashell;
-  align-items: center;
-}
+
 
 header img {
   height: 50px;
@@ -72,6 +65,10 @@ a {
   margin: auto;
   background-color: black;
   width: 100%;
+}
+
+h2 {
+
 }
 
 /* Store Section */
@@ -154,6 +151,5 @@ footer {
 
 h5 {
   display: block;
-  font-size: 0.83em;
   font-weight: bold;
 }
